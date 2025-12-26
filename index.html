@@ -32,7 +32,8 @@
                 class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#banner">About Me</a>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
@@ -48,9 +49,8 @@
                 <h2 class="mb-4">
                     Hello! I'm Eric Huang.
                 </h2>
-                <p class="lead mb-3">I'm a current student at NJIT
-                    majoring in Business & Information Systems, with a
-                    minor in Designing the User Experience. I aspire to
+                <p class="lead mb-3">I'm a recent graduate of NJIT
+                    with a B.S. in Business & Information Systems. I aspire to
                     help improve the way businesses and customers
                     interact with technology in their daily life.</p>
                 <h4 class="mb-4">What am I up to now?</h4>
@@ -75,10 +75,9 @@
                         experiencing how large organizations are managed
                         internally.</li>
                 </ul>
-                <p class="mb-3">Thank you for reading! If you're
-                    interested in what I do, contact me and let's
-                    connect!</p>
-                <h4 class="mb-4">Connect with me below!</h4>
+                <h4 class="mb-4" id="contact">
+                    Contact Me
+                </h4>
                 <div class="social-icons">
                     <div class="social-link">
                         <div><a class="social-icon" href="https://www.linkedin.com/in/ericcchuang/"><i
@@ -306,9 +305,10 @@
         <section class="resume-section" id="resume">
             <div class="resume-section-content">
                 <h2 class="mb-3">Resume</h2>
-                <div class="card">
+                <div class="card w-50">
                     <div class="card-body">
-                        <p class="my-0 card-title"><h5>For a downloadable version of my resume, <a href="assets/resume.pdf">click here!</a></h5></p>
+                        <a href="assets/resume.pdf"><p class="my-0 card-title"><h5>For a downloadable version of my resume, click here!</a></h5></p>
+                        <hr/>
                         <p class="card-text my-0"><b>Table of Contents</b></p>
                         <p class="card-text"><a href="#skills">Skills</a> | <a href="#work">Work
                         Experience</a> | <a href="#edu">Education</a> |
@@ -320,30 +320,54 @@
 
                 <!-- Skills-->
                 <hr class="m-10" />
-                <h4 class="mb-2" id="skills">Skills</h4>
+                <h4 class="mb-2" id="skills">Technical Skills</h4>
                 <hr class="m-10" />
 
-                <p>Programming Languages and Tools</p>
-                <ul class="mb-0">
+                <p><b>Tools</b></p>
+                <ul>
                     <li>Artificial Intelligence / Machine Learning</li>
+                    <li>Cloud Computing</li>
+                    <ul>
+                        <li>Amazon Web Services (AWS) (EC2, S3, Lambda)</li>
+                        <li>Google Cloud Platform (GCP)</li>
+                        <li>Microsoft Azure / Active Directory</li>
+                        <li>Docker</li>
+                        <li>Networking Concepts</li>
+                    </ul>
                     <li>Full Stack Development</li>
+                    <ul>
+                        <li>RESTful APIs</li>
+                    </ul>
                     <li>Agile Methodology</li>
-                    <li>Cloud Computing (AWS, GCP, Azure, Docker)</li>
                     <li>CI/CD Pipelines</li>
-                    <li>SQL / Database Management</li>
-                    <li>ERP Concepts (SAP, Euclidian, Workday, etc.)</li>
-                    <li>Tableau / PowerBI</li>
                     <li>Git / GitHub</li>
-                    <li>HTML / CSS</li>
-                    <li>JavaScript (node.js, ReactJS, React Native)</li>
-                    <li>Python (NumPy, Pandas, Jupyter)</li>
-                    <li>Microsoft Office (Excel, PowerPoint, Word)</li>
-                    <li>Adobe Creative Cloud (Photoshop, Illustrator,
-                        etc.)</li>
-                    <li>Figma</li>
-                    <li>Oracle</li>
-                    <li>Unity</li>
+                    <li>Vercel</li>
+                    <li>UI/UX Design</li>
+                    <li>SQL / Database Management</li>
+                    <li>ERP Systems (SAP, Euclidian, Workday, etc.)</li>
+                    <li>Linux</li>
                 </ul>
+
+                <p><b>Programming Languages</b></p>
+                <ul>
+                    <li>HTML / CSS (Tailwind, Bootstrap)</li>
+                    <li>JavaScript (node.js, React, Next.js)</li>
+                    <li>Python (NumPy, Pandas, Jupyter)</li>
+                    <li>Java</li>
+                    <li>C#</li>
+                    <li>C++</li>
+                </ul>
+
+                <p><b>Software</b></p>
+                    <ul class="mb-0">
+                        <li>Figma</li>
+                        <li>Oracle</li>
+                        <li>Unity</li>
+                        <li>Tableau / PowerBI</li>
+                        <li>Microsoft Office (Excel, PowerPoint, Word)</li>
+                        <li>Adobe Creative Cloud (Photoshop, Illustrator,
+                            etc.)</li>
+                    </ul>
 
                 <hr class="m-10" />
                 <h4 class="mb-2" id="work">Experience</h4>
